@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desktop version</title>
     <link rel="stylesheet" href="Styless.css"/>
-    <link rel="stylesheet" href="https://fontawesome.com/icons/angle-down?f=classic&s=solid" />
+    <script src="app.js" defer></script>
 </head>
 <body>
     <header class="container">
@@ -59,55 +59,55 @@
             <form>
                 <div class="name-form">
                     <div class="form-elem">
-                        <label for="FName"> <b> FirstName </b><br> </label>
+                        <label for="fName"> <b> FirstName </b><br> </label>
                         <input class="input1"
                             type="text"
-                            id="FName"
+                            id="fName"
                             placeholder="First Name"
                             required>
                     </div>
-                    <div class="form-elem"> <label for="Last-Name"><b> Last Name </b><br> </label>
+                    <div class="form-elem"> <label for="lName"><b> Last Name </b><br> </label>
                         <input class="input2"
                             type="text"
-                            id="Last-Name"
+                            id="lName"
                             placeholder="Last Name"
                             required>
                     </div>
                 </div>
                 <div class="form-elem">
-                    <label for="Email-Adress"> <b> Email Adress </b> <br> </label>
+                    <label for="emailAdress"> <b> Email Adress </b> <br> </label>
                         <input class="label"
                             type="text"
-                            id="Email-Adress"
+                            id="emailAdress"
                             placeholder="Email-Adress"
                             required>
                 </div>
                 <div class="form-elem">
-                    <label for="Company-Name"> <b> Company Name  </b> <br> </label>
+                    <label for="companyName"> <b> Company Name  </b> <br> </label>
                         <input class="label"
                             type="text"
-                            ide="Company-Name"
+                            id="companyName"
                             placeholder="Company Name"
                             required>
                 </div>
                 <div class="form-elem" >
-                    <label for="Phone-Number"> <b> Phone Number </b> <br> </label>
+                    <label for="phoneNumber"> <b> Phone Number </b> <br> </label>
                         <input class="label"
                             type="number"
-                            id="Phone-Number"
+                            id="phoneNumber"
                             placeholder="Phone Number"
                             required>
-                        <i id="angle" class="fa-solid fa-angle-down"> </i>
                 </div>
                 <div class="form-elem">
-                    <label for="Message"> <b> Message </b> <br> </label>
-                    <textarea class="placeholdermsg" rows="6" cols="56" placeholder=" Message"></textarea>
+                    <label for="message"> <b> Message </b> <br> </label>
+                    <textarea class="placeholdermsg" id="message" rows="6" cols="56" placeholder=" Message"></textarea>
                 </div>
                 <div class="form-elem">
-                    <label> </label>
-                        <input class="submit"
+                    <label for="submitbtn"> </label>
+                        <input onclick="submitHandler()" class="submit"
                                 type="submit"
-                                value="Send">
+                                value="Send"
+                                id="submitbtn">
                 </div>
             </form>
         </div>

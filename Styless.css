@@ -110,7 +110,7 @@ section {
 
 /* CONTENEDOR DE TODA LA COLUMNA IZQUIERDA */
 .sec-1 {
-    max-width: 50vw;
+    max-width: 50%;
     font-size: 25px;
     padding: 0% 5%
 }
@@ -125,13 +125,13 @@ section {
 .container-uy {
     display: flex;
     flex-direction: column;
-    margin-left: 0%;
-    padding-left: 0%;
+    margin-left: -30px;
  }
 
 .container-arg {
     display: flex;
     flex-direction: column;
+    margin-right: 30px;
  }
 
 .ul-2 {
@@ -141,7 +141,7 @@ section {
 
 /* CONTENEDOR DEL FORMULARIO */
 .sec-2 {
-    max-width: 50vw;
+    max-width: 50%;
     margin: 50px;
     padding: 30px;
     display: flex;
@@ -156,6 +156,7 @@ form {
 
 .form-elem {
     margin-bottom: 20px;
+
 }
 
 .name-form {
@@ -171,16 +172,13 @@ input {
    border-radius: 5px;
    box-sizing: border-box;
    max-width: 100%;
-   width: 340px;
+   width: 300px;
 }
 
 .input1 {
     margin-right: 20px;
 }
 
-.input2 {
-    margin-left: 20px;
-}
 
 label {
     display: flex;
