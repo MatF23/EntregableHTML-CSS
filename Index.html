@@ -3,35 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0 initial-scale=1.0">
     <title>Desktop version</title>
     <link rel="stylesheet" href="Styless.css"/>
     <script src="app.js" defer></script>
 </head>
 <body>
-    <header class="container">
+    <header>
+        <div class="shadow_menu" ></div>
+        <img src="images/bars-solid.svg" class="hamburguesa">
+        <nav id="nav" class="container">
             <a href="#"> <img src="images/icono para primer entrega.png" class="icono"></a>
-            <ul class="elem-menu">
-                <li class="li-1"> <a href="#" > <b> Pricing</b></a></li>
-                <li class="li-1"> <a href="#"> <b> Resource Center </b></a></li>
-                <li class="li-1"> <a href="#"> <b> About </b> </a></li>
-                <li class="li-1"> <a href="#"> <b> Contact </b></a></li>
-            </ul class="ul-1" >
-        <div>
-            <a href="#" class="bt1"> Login </a>
-            <a href="#" class="bt2"> Sign Up </a>
-        </div>
+            <ul class="elem-menu" class="ul-1">
+            <li class="li-1"> <a href="#" > <b> Pricing</b></a></li>
+            <li class="li-1"> <a href="#"> <b> Resource Center </b></a></li>
+            <li class="li-1"> <a href="#"> <b> About </b> </a></li>
+            <li class="li-1"> <a href="#"> <b> Contact </b></a></li>
+            </ul>
+            <div class="logsig">
+                <a href="#" class="bt1"> <b> Login </b></a>
+                <a href="#" class="bt2"> <b> Sign Up </b></a>
+            </div>
+        </nav>
     </header>
-    <section class="container-secc">
-        <div class="sec-1">
+    <section id="section" class="container-secc">
+        <div id="div1" class="sec-1">
             <h1> Talk to our product
             analytics experts</h1>
-            <p> Have questions about pricing, plans or Growthly? Fill out the <br>
+            <p id="p1"> Have questions about pricing, plans or Growthly? Fill out the <br>
                 form and our product analytics expert will be in touch directly
             </p>
             <h3> Our office </h3> <br>
             <img src="images/The Office still.jpg" class="img-office"> <br>
-            <p> Have questions about pricing, plans or Growthly? Fill out the <br>
+            <p id="p2"> Have questions about pricing, plans or Growthly? Fill out the <br>
                 form and our product analytics expert will be in touch directly
             <br></p>
             <div class="container-3">
@@ -55,11 +59,11 @@
                 </div>
             </div>
         </div>
-        <div class="sec-2">
+        <div id="div2" class="sec-2">
             <form>
                 <div class="name-form">
                     <div class="form-elem">
-                        <label for="fName"> <b> FirstName </b><br> </label>
+                        <label for="fName"> <b> First Name </b><br> </label>
                         <input class="input1"
                             type="text"
                             id="fName"
@@ -112,5 +116,13 @@
             </form>
         </div>
     </section>
+<!-- <section class="modal">
+    <div class="modal-container">
+        <modal>
+
+        </modal>
+        <a class="cerrar">Cerrar</a>
+    </div>
+</section> -->
 </body>
 </html>

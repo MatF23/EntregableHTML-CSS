@@ -8,7 +8,8 @@ function submitHandler() {
 // const formElem = document.getElementsByTagName("form")[0];
 // formElem.addEventListener("submit", (event) => {
 // event.preventDefault();
-// }) para anular la configuracion predeterminada del form, que es enviar al back y refrescar pantalla
+// }) 
+// para anular la configuracion predeterminada del form, que es enviar al back y refrescar pantalla
 
 const name = document.getElementById('fName')
 const lName = document.getElementById('lName')
@@ -45,3 +46,18 @@ function alertMessage() {
 // submitHandler() pense que habia que llamar la funcion para que se ejecute,
 // pero si lo hago se ejecuta dos veces, una por el onclick en el html y otra
 // por llamarla aca
+
+// document.getElementsByClassName('hamburguesa').addEventListener('click', mostrarMenu)
+// document.getElementsByClassName('hamburguesa').addEventListener('click', ocultarMenu)
+// nav = document.getElementsByClassName('container')
+// shadow_menu = document.getElementsByClassName('shadow_menu')
+
+// function mostrarMenu() {
+//     nav.style.rigth = "0px"
+//     shadow_menu.style.display = "block"
+// }
+
+// function ocultarMenu() {
+//     nav.style.rigth = "-250px"
+//     shadow_menu.style.display = "none"
+// }
